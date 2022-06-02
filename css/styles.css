@@ -644,22 +644,22 @@ overflow: hidden;
   color: var(--main-txt-cl);
 }
 
-.feature-list {
+.feature_list {
   display: flex;
   flex-wrap: wrap;
 }
 
-.feature-item {
+.feature_item {
   width: 270px;
   list-style: none;
   margin-right: 30px;
 }
 
-.feature-item:last-child {
+.feature_item:last-child {
   margin-right: 0;
 }
 
-.feature-item .description {
+.feature_item .description {
   font-weight: 400;
 }
 
