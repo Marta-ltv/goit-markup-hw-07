@@ -1,3 +1,4 @@
+@charset "UTF-8";
 :root {
   --main-font: 'Roboto', sans-serif;
   --secondary-font: 'Raleway', sans-serif;
@@ -190,5 +191,88 @@ ul {
 .nav_btn.active {
   color: var(--white-color);
   background-color: var(--accent-bg-cl);
+}
+
+/*Соц-мережі */
+.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  background-position: center;
+}
+
+.socials_items {
+  margin-right: 10px;
+}
+
+.socials_items:last-child {
+  margin-right: 0;
+}
+
+.socials-join {
+  margin-right: 10px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.socials-join:last-child {
+  margin-right: 0;
+}
+
+.socials_link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--secondary-border-cl);
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-transition: fill var(--cubic-bezier), background-color var(--cubic-bezier);
+  transition: fill var(--cubic-bezier), background-color var(--cubic-bezier);
+}
+
+.socials_link:focus, .socials_link:hover {
+  fill: var(--white-color);
+  background-color: var(--accent-bg-cl);
+}
+
+.socials_link.link {
+  border-radius: 50%;
+  fill: var(--white-color);
+}
+
+.socials_link.link:hover, .socials_link.link:focus {
+  background-color: var(--accent-txt-cl);
+}
+
+.join.social-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  width: 206px;
+  height: 44px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-position: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 /*# sourceMappingURL=main.css.map */
