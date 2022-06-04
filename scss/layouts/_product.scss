@@ -3,7 +3,7 @@
     padding-top: 0;
 }
 
-.product_title {
+.product__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -14,12 +14,12 @@
     color: var(--main-txt-cl);
 }
 
-.product_list {
+.product__list {
     display: flex;
     list-style: none;
 }
 
-.product_card {
+.product__card {
     position: relative;
     margin-right: 30px;
 
@@ -28,13 +28,13 @@
     }
 }
 
-.product_img {
+.product__img {
     display: block;
     max-width: 100%;
     height: auto;
 }
 
-.product_block {
+.product__block {
     position: absolute;
     display: flex;
     justify-content: center;
@@ -47,7 +47,7 @@
     background-color: rgba(47, 48, 58, 0.8);
 }
 
-.product_label {
+.product__label {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

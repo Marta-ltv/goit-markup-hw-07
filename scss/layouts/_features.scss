@@ -1,11 +1,11 @@
 /*Секція Features*/
 
-.feature_list {
+.feature__list {
     display: flex;
     flex-wrap: wrap;
 }
 
-.feature_item {
+.feature__item {
     width: 270px;
     list-style: none;
     margin-right: 30px;
@@ -26,7 +26,7 @@
     margin-bottom: 30px;
 }
 
-.feature_title {
+.feature__title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -37,7 +37,7 @@
     color: var(--main-txt-cl);
 }
 
-.feature_description {
+.feature__description {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;

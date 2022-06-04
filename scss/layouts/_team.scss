@@ -1,6 +1,6 @@
 /*Секція команда*/
 
-.team-member_title {
+.team-member__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -11,12 +11,12 @@
     color: var(--main-txt-cl);
 }
 
-.team-member_list {
+.team-member__list {
     display: flex;
     list-style: none;
 }
 
-.team-member_item {
+.team-member__item {
     width: 270px;
     margin-right: 30px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -35,12 +35,12 @@
     padding-top: 30px;
 }
 
-.team-member_img {
+.team-member__img {
     display: block;
     height: auto;
 }
 
-.member_name {
+.member__name {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -52,7 +52,7 @@
     margin-bottom: 10px;
 }
 
-.member_position {
+.member__position {
     font-size: 16px;
     line-height: 1.19;
     text-align: center;

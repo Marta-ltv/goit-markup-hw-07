@@ -5,12 +5,12 @@
     border-bottom: 1px solid var(--border-cl);
 }
 
-.navigation_list {
+.navigation__list {
     display: flex;
     list-style: none;
 }
 
-.navigation_item {
+.navigation__item {
     margin-right: 50px;
 
     &:last-child {
@@ -18,7 +18,7 @@
     }
 }
 
-.navigation_link {
+.navigation__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -123,7 +123,7 @@
     fill: currentColor;
     }
 
-.navigation_link.active {
+.navigation__link.active {
     color: var(--accent-txt-cl);
     transition: color var(--cubic-bezier);
     position: relative;

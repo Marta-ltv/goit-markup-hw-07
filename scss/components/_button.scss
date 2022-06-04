@@ -1,6 +1,6 @@
 /* Button */
 
-.btn_studio {
+.btn__studio {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -37,7 +37,7 @@
     margin-bottom: 50px;
 }
 
-.nav-btn_item {
+.nav-btn__item {
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -55,12 +55,12 @@
     color: var(--secondary-bg-color);
 }
 
-.nav-btn_item:last-child {
+.nav-btn__item:last-child {
     margin-right: 0;
 }
 
 
-.nav_btn {
+.nav__btn {
     font-family: inherit;
     font-weight: 500;
     font-size: 16px;
@@ -87,7 +87,7 @@
     }
 }
 
-.nav_btn.active {
+.nav__btn.active {
     color: var(--white-color);
     background-color: var(--accent-bg-cl);
 }

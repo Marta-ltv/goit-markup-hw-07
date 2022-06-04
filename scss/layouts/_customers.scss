@@ -4,14 +4,14 @@
     padding-bottom: 94px;
 }
 
-.customers_list {
+.customers__list {
     display: flex;
     align-items: center;
     justify-content: center;
     cursor: pointer;
 }
 
-.customers_item {
+.customers__item {
     list-style: none;
     margin-right: 30px;
 
@@ -20,13 +20,13 @@
     }
 }
 
-.customers_icon {
+.customers__icon {
     background-position: center;
     align-items: center;
     justify-content: center;
 }
 
-.customers_link {
+.customers__link {
     display: flex;
     width: 170px;
     height: 92px;
@@ -48,7 +48,7 @@
     }
 }
 
-.customers_title {
+.customers__title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
