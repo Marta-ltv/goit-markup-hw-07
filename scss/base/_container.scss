@@ -1,3 +1,11 @@
+.section {
+    padding: 94px 0;
+}
+
+.section.team {
+    background-color: var(--secondary-bg-color);
+}
+
 .container {
     display: block;
     align-items: center;
@@ -25,4 +33,27 @@
 
 .container-portfolio:hover {
     border: 2px solid var(--accent-bg-cl);
+}
+
+.container-sign-up {
+    margin-left: 93px;
+}
+
+.portfolio {
+    background-color: var(--main-bg-cl);
+}
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer {
+    background-color: var(--dark-bg-cl);
+
+}
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
 }

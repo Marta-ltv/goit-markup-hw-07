@@ -8,11 +8,19 @@
 @import './base/reset';
 @import './base/container';
 
-
 //components
 @import './components/button';
 @import './components/socials';
-
-
+@import './components/logo';
+@import './components/modal-form';
 
 //layouts
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/features';
+@import './layouts/product';
+@import './layouts/team';
+@import './layouts/customers';
+@import './layouts/portfolio';
+@import './layouts/footer';
+
