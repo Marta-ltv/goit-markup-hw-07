@@ -205,9 +205,11 @@
 }
 
 
+/*header*/
 
-
-
+.navigation_item {
+    margin-right: 50px;
+}
 
 
 
