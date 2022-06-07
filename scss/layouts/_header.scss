@@ -5,6 +5,7 @@
     border-bottom: 1px solid var(--border-cl);
 }
 
+
 .navigation__list {
     display: flex;
     list-style: none;
@@ -123,7 +124,7 @@
     fill: currentColor;
     }
 
-.navigation__link.active {
+.navigation__link--active {
     color: var(--accent-txt-cl);
     transition: color var(--cubic-bezier);
     position: relative;

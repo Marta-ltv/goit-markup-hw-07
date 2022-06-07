@@ -9,23 +9,12 @@
     font-style: normal;
     text-decoration: none;
 
+    margin-right: 94px;
+
     color: var(--accent-txt-cl);
 }
 
-.logo.studio{
-    margin-right: 94px;
-
-    &:last-child {
-    margin-right: 0;
-    }
-}
-
-.logo.portfolio {
-    margin-right: 94px;
-}
-
-.logo-black,
-.studio-black {
+.logo__black {
     color: var(--black-color);
 }
 
@@ -33,7 +22,7 @@
     color: var(--white-color);
 }
 
-.logo.footer {
+.footer-logo {
     display: block;
     margin-bottom: 20px;
 }

@@ -1,15 +1,13 @@
 // utils
-@import './utils/vars';
-@import './utils/variables';
+@import './utils/vaiables';
 @import './utils/visually-hidden';
 
 // base styles
-@import './base/common';
 @import './base/reset';
-@import './base/container';
+@import './base/common';
 
 //components
-@import './components/button';
+@import './components/buttons';
 @import './components/socials';
 @import './components/logo';
 @import './components/modal-form';
@@ -21,6 +19,6 @@
 @import './layouts/product';
 @import './layouts/team';
 @import './layouts/customers';
-@import './layouts/portfolio';
+@import './layouts/servives.scss';
 @import './layouts/footer';
 

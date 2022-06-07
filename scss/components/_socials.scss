@@ -41,20 +41,14 @@
     transition: fill var(--cubic-bezier),
     background-color var(--cubic-bezier);
 
+    &.link {
+    fill: var(--white-color);
+    }
+
     &:focus,
     &:hover {
     fill: var(--white-color);
     background-color: var(--accent-bg-cl);
-    }
-}
-
-.socials__link.link {
-    border-radius: 50%;
-    fill: var(--white-color);
-
-    &:hover,
-    &:focus {
-    background-color: var(--accent-txt-cl);
     }
 }
 
